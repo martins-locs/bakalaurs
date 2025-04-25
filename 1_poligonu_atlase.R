@@ -1,6 +1,4 @@
-# ====================================
 # 1. Bibliotēku ielāde ----
-# ====================================
 library(tidyverse)
 library(terra)
 library(sf)
@@ -10,9 +8,7 @@ library(purrr)
 
 
 
-# ====================================
 # 2. Ainavas rastra un atlases teritorijas sagatavošana ----
-# ====================================
 ainava = terra::rast("../IevadesDati/Ainava_vienk_mask.tif")
 rastrs = raster::raster(ainava)
 
@@ -42,9 +38,7 @@ rm(ainava, rastrs, atlases_telpa, references_teritorija, atlasits)
 
 
 
-# ====================================
 # 3. Pikseļu klasifikācija un pārvēršana par poligoniem ----
-# ====================================
 klasificets = ifel(atlasits2 >= 720 & atlasits2 <= 730, 1, NA)
 terra::plot(klasificets)
 gc()
@@ -59,9 +53,7 @@ poligoni = st_cast(multipoligoni, "POLYGON")
 
 
 
-# ====================================
 # 4. Buferēšana, savienošana un filtrēšana pēc platības ----
-# ====================================
 poligoni_buf = st_buffer(poligoni, dist = 5.5)
 prove = st_union(poligoni_buf)
 prove_multipoly = st_as_sf(prove)
@@ -83,9 +75,7 @@ print(prove_poly)
 
 
 
-# ====================================
 # 5. Atlases sadalījuma sagatavošana ----
-# ====================================
 sadalijums <- st_read("./IevadesDati/sadalijums.gpkg")
 sadalijums <- st_transform(sadalijums, crs = st_crs(prove_poly))
 sadalijums$ID <- seq_len(nrow(sadalijums))
@@ -95,18 +85,14 @@ print(sadalijums)
 
 
 
-# ====================================
 # 6. Dažu ID izslēgšana pirms izlases ----
-# ====================================
 iznemtie_ID_atlase <- c(56, 732, 1260, 1373)
 prove_poly <- prove_poly %>% filter(!ID %in% iznemtie_ID_atlase)
 
 
 
 
-# ====================================
 # 7. Nejauša atlase katrā sadalījuma vienībā (5 gabali) ----
-# ====================================
 set.seed(4)
 atlase <- sadalijums %>%
   group_split(ID) %>%
@@ -121,9 +107,7 @@ print(atlase, n = Inf)
 
 
 
-# ====================================
 # 8. Centroides izvilkšana un secības piešķiršana ----
-# ====================================
 centroidas <- st_centroid(prove_poly)
 
 # Izņem noteiktus centroidu ID
