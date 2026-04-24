@@ -12,7 +12,7 @@
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
 
-### [Rezultati/](./Rezultati/)
+### [rezultati/](./rezultati/)
 Šī mape satur izlozēto niedrāju datus.
 
 ##
