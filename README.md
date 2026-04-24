@@ -12,6 +12,9 @@
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
 
+### [Rezultati/](./Rezultati/)
+Šī mape satur izlozēto niedrāju datus.
+
 ##
 
 Visas komandu rindas šajā repozitorijā ir pārbaudītas 2025-04-25 pieejamajā versijā.
