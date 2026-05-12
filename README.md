@@ -9,7 +9,7 @@
 
 - **`1_poligonu_atlase.R`**
 
-- - **`2_birdnet_full.R`**  
+- **`2_birdnet_full.R`**  
 
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
