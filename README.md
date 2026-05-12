@@ -19,4 +19,4 @@
 
 ##
 
-Visas komandu rindas šajā repozitorijā ir pārbaudītas 2025-04-25 pieejamajā versijā.
+Visas komandu rindas šajā repozitorijā ir pārbaudītas 2026-05-12 pieejamajā versijā.
