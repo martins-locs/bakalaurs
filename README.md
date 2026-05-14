@@ -1,7 +1,7 @@
 
-# Materiāli "BIRDNETR KLASIFIKĀCIJAS PRECIZITĀTES NOVĒRTĒJUMS NIEDRĀJU PUTNU PASĪVĀ AKUSTISKAJĀ MONITORINGĀ" reproducēšanai
+# Materiāli "BIRDNET KLASIFIKĀCIJAS PRECIZITĀTES NOVĒRTĒJUMS NIEDRĀJU PUTNU PASĪVĀ AKUSTISKAJĀ MONITORINGĀ" reproducēšanai
 
-Šis repozitorijs satur komandu rindas un daļu no ievades datiem mana bakalaura darba gaitas un rezultātu reproducēšanai. Tā kā daļa no datiem ir sensitīvi, piemēram, zemes seguma/lietojuma veids (LULC) šajā izšķirtspējā, tie nav šeit ievietoti. Toties repozitorijs satur visas darbā izmantotās komandu rindas un to rezultātā radītos produktus.
+Šis repozitorijs satur komandu rindas un daļu no ievades datiem mana bakalaura darba gaitas un rezultātu reproducēšanai. Repozitorijs satur visas darbā izmantotās komandu rindas un to rezultātā radītos produktus.
 
 ## Repozitorija saturs
 
