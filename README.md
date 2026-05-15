@@ -14,7 +14,7 @@
   Proto un meta modeļu palaišana
 
 - **`0_datu_apstrade.R`**  
-  Importē ainavu klases un apstrādā putnu novērojumu datus, kas nepieciešami tālākai analīzei. Datus filtrē un strukturē, novēršot kļūdas un dublikātus. Aprēķina taksonu ainavu preferences un rezultāti tiek vizualizēti.
+  Niedrāju atlase un izloze
 
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
