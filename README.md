@@ -3,9 +3,11 @@
 
 Šis repozitorijs satur komandu rindas un interneta saites ievades datiem mana bakalaura darba gaitas un rezultātu reproducēšanai. Repozitorijs satur visas darbā izmantotās komandu rindas un to rezultātā radītos produktus vai to interneta saites.
 
-[Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni/insights/).
+## Ievades dati
 
-[LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404).
+[LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
+
+[Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni/insights/)
 
 
 ## Repozitorija saturs
