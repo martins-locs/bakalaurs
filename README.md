@@ -19,8 +19,11 @@
 
 
 - **`2_birdnet_full.R`**  
-  Proto un meta modeļu palaišana. Nepieciešamie ievades dati: [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
-  Iegūtie faili:
+  Proto un meta modeļu palaišana.
+  Nepieciešamie ievades dati/faili:
+  - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
+  
+  Komandu rindā iegūtie faili:
   - BirdnetR_meta_sites.csv
   - BirdnetR_meta_sites_week.csv
 
