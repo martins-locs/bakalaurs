@@ -27,7 +27,7 @@
     - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
   
   - Komandu rindā iegūtie faili:
-    - BirdnetR_proto.csv
+    - Visi `all_results_XX_XX_overlap_XX.csv` faili
     - BirdnetR_meta_sites.csv
     - BirdnetR_meta_sites_week.csv
 
