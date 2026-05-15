@@ -27,7 +27,7 @@
     - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
   
   - Komandu rindā iegūtie faili:
-    - Visi `all_results_XX_XX_overlap_XX.csv` faili
+    - Visi `all_results_XX_XX_overlap_XX.csv` faili (Iegūtās kolonnas:  start  end  scientific_name  common_name  confidence  audio_path  audio_file  quadrant  mic_type  site_id  record_id  datetime  datetime_utc)
     - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
 
@@ -37,8 +37,8 @@
   - Kompaktāka `2_birdnet_proto_meta.R`. Kā alternatīva proto un meta modeļu palaišanai. Nepieciešamie ievades un komandu rinā iegūto dati/faili identiski neoptimizētajai versijai.
   
  
-- **`3_birdnet_full.R`**  
-  -Proto un meta modeļu palaišana.
+- **`3_proto_plus_meta_site.R`**  
+  -Proto un meta lokācijas modeļu palaišana.
   -Nepieciešamie ievades dati/faili:
     - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
   
