@@ -15,10 +15,10 @@
 ### R skripti
 
 - **`1_poligonu_atlase.R`**  
-  Niedrāju atlase un izloze
+  Niedrāju atlase un izloze. Nepieciešamie ievades dati: [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
 
 - **`2_birdnet_full.R`**  
-  Proto un meta modeļu palaišana
+  Proto un meta modeļu palaišana. Nepieciešamie ievades dati: [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/)
 
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
