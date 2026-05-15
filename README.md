@@ -46,7 +46,7 @@
 
  
 
-- **`4_laikapstakli.R`**  
+- **`4_add_weather.R`**  
   - Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
   - Nepieciešamie ievades dati/faili:
     - Visi `qX_XX.csv` faili kas iegūti pēc `3_add_meta_and_latvia_info.R`
