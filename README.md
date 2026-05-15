@@ -22,6 +22,8 @@
   Proto un meta modeļu palaišana.
   Nepieciešamie ievades dati/faili:
   - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
+  - Visi `metadati/recordings.XXXX.csv` faili
+  - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
   
   Komandu rindā iegūtie faili:
   - BirdnetR_proto.csv
