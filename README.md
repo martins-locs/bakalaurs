@@ -27,6 +27,11 @@
   - BirdnetR_proto.csv
   - BirdnetR_meta_sites.csv
   - BirdnetR_meta_sites_week.csv
+
+ 
+- **`2_birdnet_optimized.R`**  
+  Kompaktāka `2_birdnet_proto_meta.R`. Kā alternatīva proto un meta modeļu palaišanai. Nepieciešamie ievades un komandu rinā iegūto dati/faili identiski neoptimizētajai versijai.
+  
  
   - **`3_birdnet_full.R`**  
   Proto un meta modeļu palaišana.
