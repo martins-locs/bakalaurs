@@ -18,6 +18,7 @@
   - poligoni_720730.gpkg
 
 
+
 - **`2_birdnet_proto_meta.R`**  
   Proto un meta modeļu palaišana.
   Nepieciešamie ievades dati/faili:
