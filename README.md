@@ -7,7 +7,7 @@
 
 [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
 
-[Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni/insights/)
+[Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/)
 
 
 ## Repozitorija saturs
