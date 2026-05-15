@@ -7,14 +7,11 @@
 
 ### R skripti
 
-- **`1_poligonu_atlase.R`**
+- **`1_poligonu_atlase.R`**  
   Niedrāju atlase un izloze
 
-- **`2_birdnet_full.R`**
+- **`2_birdnet_full.R`**  
   Proto un meta modeļu palaišana
-
-- **`0_datu_apstrade.R`**  
-  Niedrāju atlase un izloze
 
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
