@@ -14,8 +14,8 @@
   - [IevadesDati/km35_radius_riga.gpkg](./IevadesDati/km35_radius_riga.gpkg)
   - [/IevadesDati/sadalijums.gpkg](./IevadesDati/sadalijums.gpkg)
   
-  Iegūtie faili:
-  - Poligoni_720730_v3.gpkg
+  Komandu rindā iegūtie faili:
+  - Poligoni_720730.gpkg
 
 
 - **`2_birdnet_full.R`**  
