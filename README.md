@@ -10,7 +10,7 @@
 - **`1_poligonu_atlase.R`**  
   Niedrāju atlase un izloze.
   Nepieciešamie ievades dati/faili:
-  - [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
+  - LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m) (Faila izmēra dēļ nepieciešams sazināties ar darba autoru)
   - [IevadesDati/km35_radius_riga.gpkg](./IevadesDati/km35_radius_riga.gpkg)
   - [/IevadesDati/sadalijums.gpkg](./IevadesDati/sadalijums.gpkg)
   
@@ -19,6 +19,16 @@
 
 
 - **`2_birdnet_full.R`**  
+  Proto un meta modeļu palaišana.
+  Nepieciešamie ievades dati/faili:
+  - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
+  
+  Komandu rindā iegūtie faili:
+  - BirdnetR_proto.csv
+  - BirdnetR_meta_sites.csv
+  - BirdnetR_meta_sites_week.csv
+ 
+  - **`3_birdnet_full.R`**  
   Proto un meta modeļu palaišana.
   Nepieciešamie ievades dati/faili:
   - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
