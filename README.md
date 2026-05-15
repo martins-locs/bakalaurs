@@ -62,7 +62,7 @@ Satur .gpkg ievades datus, niedrāju poligonu atlasei un izlozei.
 Satur ievades datus BirdNet modeļa vajadzībām.
 
 ### [rezultati/](./rezultati/)
-Šī mape satur izlozēto niedrāju datus.
+Satur iegūtos datus par  niedrājiem.
 
 ##
 
