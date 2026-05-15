@@ -33,7 +33,7 @@
   Kompaktāka `2_birdnet_proto_meta.R`. Kā alternatīva proto un meta modeļu palaišanai. Nepieciešamie ievades un komandu rinā iegūto dati/faili identiski neoptimizētajai versijai.
   
  
-  - **`3_birdnet_full.R`**  
+- **`3_birdnet_full.R`**  
   Proto un meta modeļu palaišana.
   Nepieciešamie ievades dati/faili:
   - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
