@@ -15,7 +15,7 @@
     - [/IevadesDati/riga_sadalijums.gpkg](./IevadesDati/riga_sadalijums.gpkg)
   
   - Komandu rindā iegūtie faili:
-    - poligoni_720730.gpkg
+    - [/IevadesDati/poligoni_720730.gpkg](./IevadesDati/poligoni_720730.gpkg)
 
 
 
@@ -28,8 +28,9 @@
   
   - Komandu rindā iegūtie faili:
     - Visi `all_results_XX_XX_overlap_XX.csv` faili
-    - BirdnetR_meta_sites.csv
-    - BirdnetR_meta_sites_week.csv
+    - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
+    - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
+
 
  
 - **`2_birdnet_optimized.R`**  
