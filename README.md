@@ -12,15 +12,17 @@
   Nepieciešamie ievades dati/faili:
   - [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
   - [IevadesDati/km35_radius_riga.gpkg](./IevadesDati/km35_radius_riga.gpkg)
-  
-  Iegūtie dati/faili:
-  - `piemers.jpg`
-  - /IevadesDati/km35_radius_riga.gpkg
+  - [/IevadesDati/sadalijums.gpkg](./IevadesDati/sadalijums.gpkg)
+  Iegūtie faili:
+  - Poligoni_720730_v3.gpkg
+
 
 - **`2_birdnet_full.R`**  
   Proto un meta modeļu palaišana. Nepieciešamie ievades dati: [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
   Iegūtie faili:
-  - `piemers.jpg`
+  - BirdnetR_meta_sites.csv
+  - BirdnetR_meta_sites_week.csv
+
 
 ### [IevadesDati/](./IevadesDati/)
 Šī mape satur dažādu veidu ievades datus, kas izmantoti datu apstrādei un analīzei.
