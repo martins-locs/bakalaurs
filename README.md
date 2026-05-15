@@ -27,7 +27,7 @@
     - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
   
   - Komandu rindā iegūtie faili:
-    - Visi `all_results_XX_XX_overlap_XX.csv` faili (Iegūtās kolonnas:  start  end  scientific_name  common_name  confidence  audio_path  audio_file  quadrant  mic_type  site_id  record_id  datetime  datetime_utc)
+    - Visi `all_results_XX_XX_overlap_XX.csv` faili (Iegūtās kolonnas:  start,  end,  scientific_name,  common_name,  confidence,  audio_path,  audio_file,  quadrant,  mic_type,  site_id,  record_id,  datetime,  datetime_utc)
     - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
 
@@ -38,13 +38,33 @@
   
  
 - **`3_proto_plus_meta_site.R`**  
-  -Proto un meta lokācijas modeļu palaišana.
+  -Proto un meta ar lokācijas modeļu apvienošana.
   -Nepieciešamie ievades dati/faili:
-    - [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
-  
+    - Visi `all_results_QX_XX_overlap_XX.csv` faili kas iegūti pēc `2_birdnet_proto_meta.R`
+    - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
+   
   -Komandu rindā iegūtie faili:
-    - BirdnetR_meta_sites.csv
-    - BirdnetR_meta_sites_week.csv
+    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: site_confidence)
+
+
+- **`4_proto_plus_meta_site_week.R`**  
+  -Proto un meta ar lokācijas un laika modeļu apvienošana.
+  -Nepieciešamie ievades dati/faili:
+    - Visi `qX_XX.csv` faili
+    - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
+   
+  -Komandu rindā iegūtie faili:
+    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: week, site_week_confidence)
+
+
+- **`5_proto_plus_meta_latvia.R`**  
+  -Proto modeļa papildināšana ar informāciju ar Latvijā fiksētajām sugām.
+  -Nepieciešamie ievades dati/faili:
+    - Visi `qX_XX.csv` faili kas iegūti pēc `4_proto_plus_meta_site_week.R`
+    - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
+   
+  -Komandu rindā iegūtie faili:
+    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: latvia)
 
 
 ### [IevadesDati/](./IevadesDati/)
