@@ -65,6 +65,15 @@
    
   -Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: latvia)
+ 
+
+- **`6_laikapstakli.R`**  
+  -Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
+  -Nepieciešamie ievades dati/faili:
+    - Visi `qX_XX.csv` faili kas iegūti pēc `5_proto_plus_meta_latvia.R`
+   
+  -Komandu rindā iegūtie faili:
+    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: TempIN, TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
 
 
 ### [IevadesDati/](./IevadesDati/)
