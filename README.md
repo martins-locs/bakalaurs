@@ -11,7 +11,7 @@
   Niedrāju atlase un izloze.
   Nepieciešamie ievades dati/faili:
   - [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
-  - /IevadesDati/km35_radius_riga.gpkg
+  - [IevadesDati/km35_radius_riga.gpkg](./IevadesDati/km35_radius_riga.gpkg)
   
   Iegūtie dati/faili:
   - `piemers.jpg`
