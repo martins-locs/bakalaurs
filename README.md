@@ -38,41 +38,41 @@
   
  
 - **`3_proto_plus_meta_site.R`**  
-  -Proto un meta ar lokācijas modeļu apvienošana.
-  -Nepieciešamie ievades dati/faili:
+  - Proto un meta ar lokācijas modeļu apvienošana.
+  - Nepieciešamie ievades dati/faili:
     - Visi `all_results_QX_XX_overlap_XX.csv` faili kas iegūti pēc `2_birdnet_proto_meta.R`
     - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
    
-  -Komandu rindā iegūtie faili:
+  - Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: site_confidence)
 
 
 - **`4_proto_plus_meta_site_week.R`**  
-  -Proto un meta ar lokācijas un laika modeļu apvienošana.
-  -Nepieciešamie ievades dati/faili:
+  - Proto un meta ar lokācijas un laika modeļu apvienošana.
+  - Nepieciešamie ievades dati/faili:
     - Visi `qX_XX.csv` faili
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
    
-  -Komandu rindā iegūtie faili:
+  - Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: week, site_week_confidence)
 
 
 - **`5_proto_plus_meta_latvia.R`**  
-  -Proto modeļa papildināšana ar informāciju ar Latvijā fiksētajām sugām.
-  -Nepieciešamie ievades dati/faili:
+  - Proto modeļa papildināšana ar informāciju ar Latvijā fiksētajām sugām.
+  - Nepieciešamie ievades dati/faili:
     - Visi `qX_XX.csv` faili kas iegūti pēc `4_proto_plus_meta_site_week.R`
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
    
-  -Komandu rindā iegūtie faili:
+  - Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: latvia)
  
 
 - **`6_laikapstakli.R`**  
-  -Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
-  -Nepieciešamie ievades dati/faili:
+  - Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
+  - Nepieciešamie ievades dati/faili:
     - Visi `qX_XX.csv` faili kas iegūti pēc `5_proto_plus_meta_latvia.R`
    
-  -Komandu rindā iegūtie faili:
+  - Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: TempIN, TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
 
 
