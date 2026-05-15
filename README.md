@@ -13,6 +13,7 @@
   - [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
   - [IevadesDati/km35_radius_riga.gpkg](./IevadesDati/km35_radius_riga.gpkg)
   - [/IevadesDati/sadalijums.gpkg](./IevadesDati/sadalijums.gpkg)
+  
   Iegūtie faili:
   - Poligoni_720730_v3.gpkg
 
