@@ -8,9 +8,14 @@
 ### R skripti
 
 - **`1_poligonu_atlase.R`**  
-  Niedrāju atlase un izloze. Nepieciešamie ievades dati: [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)  
-  Iegūtie faili:
+  Niedrāju atlase un izloze.
+  Nepieciešamie ievades dati/faili:
+  - [LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m)](404)
+  - /IevadesDati/km35_radius_riga.gpkg
+  
+  Iegūtie dati/faili:
   - `piemers.jpg`
+  - /IevadesDati/km35_radius_riga.gpkg
 
 - **`2_birdnet_full.R`**  
   Proto un meta modeļu palaišana. Nepieciešamie ievades dati: [Arbimon projekts un ieraksti](https://arbimon.org/p/niedraju-putni-bakalaurs/insights/) (Failu piekļūšanai nepieciešams sazināties ar darba autoru)
