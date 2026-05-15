@@ -62,7 +62,7 @@ Satur .gpkg ievades datus, niedrāju poligonu atlasei un izlozei.
 Satur ievades datus BirdNet modeļa vajadzībām.
 
 ### [rezultati/](./rezultati/)
-Satur iegūtos datus par  niedrājiem.
+Satur datus par iegūtajiem rezultātiem no komandu rindām.
 
 ##
 
