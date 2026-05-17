@@ -94,7 +94,7 @@ Satur ievades datus BirdNet modeļa vajadzībām.
 Satur patstāvīgi noteikto putnu sarakstu.
 
 ### [rezultati/](./rezultati/)
-Satur datus par iegūtajiem rezultātiem no komandu rindām.
+Satur datus un vizuālos materiālus par iegūtajiem rezultātiem no komandu rindām.
 
 ##
 
