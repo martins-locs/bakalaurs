@@ -80,6 +80,14 @@
     - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
     - [/rezultati/TP_FP_FN_salidzinajums.csv](./rezultati/TP_FP_FN_salidzinajums.csv)
     - [/rezultati/metrika_pa_sugam.csv](.[/rezultati/metrika_pa_sugam.csv)
+   
+
+
+
+- **`7_GLMM.R`**
+- Standartizēti GLMM koeficienti sugu-specifiskiem BirdNET confidence threshold ar meta parametriem.
+  - Nepieciešamie ievades dati/faili:
+    - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
 
 
 
