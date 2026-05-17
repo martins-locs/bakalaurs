@@ -79,6 +79,7 @@
   - Komandu rindā iegūtie faili:
     - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
     - [/rezultati/TP_FP_FN_salidzinajums.csv](./rezultati/TP_FP_FN_salidzinajums.csv)
+    - [/rezultati/metrika_pa_sugam.csv](.[/rezultati/metrika_pa_sugam.csv)
 
 
 
