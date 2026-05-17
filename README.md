@@ -67,6 +67,18 @@
     - [/rezultati/ierakstu_atlase.csv](./rezultati/ierakstu_atlase.csv)
     - [/rezultati/heatmap_overall.png](./rezultati/heatmap_overall.png)
     - [/rezultati/heatmap_faceted.png](./rezultati/heatmap_faceted.png)
+   
+
+
+- **`6_kludu_matrica.R`**  
+  - Salīdzina BirdNet un manuāli klausīto ierakstu detekcijas pēc laika pārklāšanās, aprēķina precision/recall/F1 pa overlap vērtībām.
+  - Nepieciešamie ievades dati/faili:
+    - Visi `qX_XX.csv` faili
+    - [/manuali_klausits/manual.xlsx](./manuali_klausits/manual.xlsx)
+   
+  - Komandu rindā iegūtie faili:
+    - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
+    - [/rezultati/TP_FP_FN_salidzinajums.csv](./rezultati/TP_FP_FN_salidzinajums.csv)
 
 
 
