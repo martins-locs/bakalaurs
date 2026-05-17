@@ -33,7 +33,7 @@
 
 
  
-- **`3_add_meta_and_latvia_info.R`**  
+- **`3_pievienot_meta__info.R`**  
   - Proto, meta ar lokācijas un metas ar lokācijas un laika modeļu apvienošana. Papildināšana ar informāciju ar Latvijā fiksētajām sugām.
   - Nepieciešamie ievades dati/faili:
     - Visi `all_results_QX_XX.csv` faili kas iegūti pēc `2_birdnet_proto_meta.R`
@@ -46,13 +46,29 @@
 
  
 
-- **`4_add_weather.R`**  
+- **`4_laikapstakli.R`**  
   - Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
   - Nepieciešamie ievades dati/faili:
-    - Visi `qX_XX.csv` faili kas iegūti pēc `3_add_meta_and_latvia_info.R`
+    - Visi `qX_XX.csv` faili kas iegūti pēc `3_pievienot_meta__info.R`
    
   - Komandu rindā iegūtie faili:
     - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
+
+
+
+- **`5_ierakstu_atlase.R`**  
+  - Stratificēta ierakstu atlase (nedēļa × stunda × kvadrants × mikrofons) ar saullēkta/saulrieta periodu papildatlasi.
+  - Nepieciešamie ievades dati/faili:
+    - Visi `metadati/recordings.XXXX.csv` faili
+    - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
+    - Visi veikto ierakstu audio faili
+   
+  - Komandu rindā iegūtie faili:
+    - [/rezultati/ierakstu_atlase.csv](./rezultati/ierakstu_atlase.csv)
+    - [/rezultati/heatmap_overall.png](./rezultati/heatmap_overall.png)
+    - [/rezultati/heatmap_faceted.png](./rezultati/heatmap_faceted.png)
+
+
 
 
 ### [IevadesDati/](./IevadesDati/)
