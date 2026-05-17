@@ -77,6 +77,9 @@ Satur .gpkg ievades datus, niedrāju poligonu atlasei un izlozei.
 ### [metadati/](./metadati/)
 Satur ievades datus BirdNet modeļa vajadzībām.
 
+### [manuali_klausits/](./manuali_klausits/)
+Satur patstāvīgi noteikto putnu sarakstu.
+
 ### [rezultati/](./rezultati/)
 Satur datus par iegūtajiem rezultātiem no komandu rindām.
 
