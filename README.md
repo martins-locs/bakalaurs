@@ -112,6 +112,9 @@ Satur patstāvīgi noteikto putnu sarakstu.
 ### [rezultati/](./rezultati/)
 Satur datus un vizuālos materiālus par iegūtajiem rezultātiem no komandu rindām.
 
+### [GLMM/](./GLMM/)
+Satur iegūtos rezultātus no GLMM analīzes.
+
 ##
 
 Visas komandu rindas šajā repozitorijā ir pārbaudītas 2026-05-18 pieejamajā versijā.
