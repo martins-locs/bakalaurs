@@ -88,6 +88,14 @@
 - Standartizēti GLMM koeficienti sugu-specifiskiem BirdNET confidence threshold ar meta parametriem.
   - Nepieciešamie ievades dati/faili:
     - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
+   
+  - Komandu rindā iegūtie faili:
+    - [/GLMM/glmm_scaling_parameters.csv](./GLMM/glmm_scaling_parameters.csv)
+    - [/GLMM/glmm_performance.csv](./GLMM/glmm_performance.csv)
+    - [/GLMM/glmm_final_coefficients_SCALED.csv](./GLMM/glmm_final_coefficients_SCALED.csv)
+    - [/GLMM/glmm_user_guide.csv](./GLMM/glmm_user_guide.csv)
+    - [/GLMM/glmm_model_comparison_f1.png](./GLMM/glmm_model_comparison_f1.png)
+    - [/GLMM/glmm_species_performance.png](./GLMM/glmm_species_performance.png)
 
 
 
@@ -106,4 +114,4 @@ Satur datus un vizuālos materiālus par iegūtajiem rezultātiem no komandu rin
 
 ##
 
-Visas komandu rindas šajā repozitorijā ir pārbaudītas 2026-05-15 pieejamajā versijā.
+Visas komandu rindas šajā repozitorijā ir pārbaudītas 2026-05-18 pieejamajā versijā.
