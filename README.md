@@ -27,7 +27,7 @@
     - [/metadati/sites.0001.csv](./metadati/sites.0001.csv)
   
   - Komandu rindā iegūtie faili:
-    - Visi `all_results_QX_XX.csv` faili (Iegūtās kolonnas:  start,  end,  scientific_name,  common_name,  confidence,  audio_path,  audio_file,  quadrant,  mic_type,  site_id,  record_id,  datetime,  datetime_utc, overlap)
+    - Visi `proto/all_results_QX_XX.csv` faili (Iegūtās kolonnas:  start,  end,  scientific_name,  common_name,  confidence,  audio_path,  audio_file,  quadrant,  mic_type,  site_id,  record_id,  datetime,  datetime_utc, overlap)
     - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
 
@@ -36,23 +36,23 @@
 - **`3_pievienot_meta__info.R`**  
   - Proto, meta ar lokācijas un metas ar lokācijas un laika modeļu apvienošana. Papildināšana ar informāciju ar Latvijā fiksētajām sugām.
   - Nepieciešamie ievades dati/faili:
-    - Visi `all_results_QX_XX.csv` faili kas iegūti pēc `2_birdnet_proto_meta.R`
+    - Visi `proto/all_results_QX_XX.csv` faili kas iegūti pēc `2_birdnet_proto_meta.R`
     - [/rezultati/BirdnetR_meta_sites.csv](./rezultati/BirdnetR_meta_sites.csv)
     - [/rezultati/BirdnetR_meta_sites_week.csv](./rezultati/BirdnetR_meta_sites_week.csv)
     - [/rezultati/BirdnetR_meta_latvia.csv](./rezultati/BirdnetR_meta_latvia.csv)
    
   - Komandu rindā iegūtie faili:
-    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: site_confidence, week, site_week_confidence, latvia)
+    - Visi `proto/qX_XX.csv` faili (Papildus iegūtās kolonnas: site_confidence, week, site_week_confidence, latvia)
 
  
 
 - **`4_laikapstakli.R`**  
   - Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
   - Nepieciešamie ievades dati/faili:
-    - Visi `qX_XX.csv` faili kas iegūti pēc `3_pievienot_meta__info.R`
+    - Visi `proto/qX_XX.csv` faili kas iegūti pēc `3_pievienot_meta__info.R`
    
   - Komandu rindā iegūtie faili:
-    - Visi `qX_XX.csv` faili (Papildus iegūtās kolonnas: TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
+    - Visi `proto/qX_XX.csv` faili (Papildus iegūtās kolonnas: TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
 
 
 
@@ -73,7 +73,7 @@
 - **`6_kludu_matrica.R`**  
   - Salīdzina BirdNet un manuāli klausīto ierakstu detekcijas pēc laika pārklāšanās, aprēķina precision/recall/F1 pa overlap vērtībām.
   - Nepieciešamie ievades dati/faili:
-    - Visi `qX_XX.csv` faili
+    - Visi `proto/qX_XX.csv` faili
     - [/manuali_klausits/manual.xlsx](./manuali_klausits/manual.xlsx)
    
   - Komandu rindā iegūtie faili:
@@ -113,6 +113,9 @@ Satur patstāvīgi noteikto putnu sarakstu.
 Satur datus un vizuālos materiālus par iegūtajiem rezultātiem no komandu rindām.
 
 ### [GLMM/](./GLMM/)
+Satur iegūtos rezultātus no GLMM analīzes.
+
+### [proto/](./proto/)
 Satur iegūtos rezultātus no GLMM analīzes.
 
 ##
