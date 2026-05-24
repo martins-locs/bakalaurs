@@ -11,7 +11,7 @@
   - Niedrāju atlase un izloze.
   - Nepieciešamie ievades dati/faili:
     - LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m) (Faila izmēra dēļ nepieciešams sazināties ar darba autoru)
-    - [IevadesDati/riga_35km_radius.gpkg](./IevadesDati/riga_35km_radius.gpkg)
+    - [/IevadesDati/riga_35km_radius.gpkg](./IevadesDati/riga_35km_radius.gpkg)
     - [/IevadesDati/riga_sadalijums.gpkg](./IevadesDati/riga_sadalijums.gpkg)
   
   - Komandu rindā iegūtie faili:
