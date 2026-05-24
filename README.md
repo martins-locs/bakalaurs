@@ -46,17 +46,9 @@
 
  
 
-- **`4_laikapstakli.R`**  
-  - Proto modeļa papildināšana ar informāciju par laikapstākļiem ieraksta veikšanas brīdī.
-  - Nepieciešamie ievades dati/faili:
-    - Visi `proto/qX_XX.csv` faili kas iegūti pēc `3_pievienot_meta__info.R`
-   
-  - Komandu rindā iegūtie faili:
-    - Visi `proto/qX_XX.csv` faili (Papildus iegūtās kolonnas: TempOUT, wind, humidity, precipitation, wind_sin, wind_cos)
 
 
-
-- **`5_ierakstu_atlase.R`**  
+- **`4_ierakstu_atlase.R`**  
   - Stratificēta ierakstu atlase (nedēļa × stunda × kvadrants × mikrofons) ar saullēkta/saulrieta periodu papildatlasi.
   - Nepieciešamie ievades dati/faili:
     - Visi `metadati/recordings.XXXX.csv` faili
@@ -70,7 +62,7 @@
    
 
 
-- **`6_kludu_matrica.R`**  
+- **`5_kludu_matrica.R`**  
   - Salīdzina BirdNet un manuāli klausīto ierakstu detekcijas pēc laika pārklāšanās, aprēķina precision/recall/F1 pa overlap vērtībām.
   - Nepieciešamie ievades dati/faili:
     - Visi `proto/qX_XX.csv` faili
@@ -84,7 +76,7 @@
 
 
 
-- **`7_GLMM.R`**
+- **`6_GLMM.R`**
 - Standartizēti GLMM koeficienti sugu-specifiskiem BirdNET confidence threshold ar meta parametriem.
   - Nepieciešamie ievades dati/faili:
     - [/rezultati/TP_FP_FN_rezultati.csv](./rezultati/TP_FP_FN_rezultati.csv)
