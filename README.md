@@ -10,7 +10,7 @@
 - **`1_poligonu_atlase.R`**  
   - Niedrāju atlase un izloze.
   - Nepieciešamie ievades dati/faili:
-    - LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m) (Faila izmēra dēļ nepieciešams sazināties ar darba autoru)
+    - LULC klašu klasifikators Latvijas teritorijai (2024. gads, 10x10 m) (Fails pieejams DataVerseLV repozitorijā [https://doi.org/10.71782/DATA/FGYBPI](https://doi.org/10.71782/DATA/FGYBPI))
     - [/IevadesDati/riga_35km_radius.gpkg](./IevadesDati/riga_35km_radius.gpkg)
     - [/IevadesDati/riga_sadalijums.gpkg](./IevadesDati/riga_sadalijums.gpkg)
   
@@ -65,7 +65,7 @@
 - **`5_kludu_matrica.R`**  
   - Salīdzina BirdNet un manuāli klausīto ierakstu detekcijas pēc laika pārklāšanās, aprēķina precision/recall/F1 pa overlap vērtībām.
   - Nepieciešamie ievades dati/faili:
-    - Visi `proto/qX_XX.csv` faili
+    - Visi `proto/qX_XX.csv` faili (Faili pieejami DataVerseLV repozitorijā [https://doi.org/10.71782/DATA/FGYBPI](https://doi.org/10.71782/DATA/FGYBPI))
     - [/manuali_klausits/manual.xlsx](./manuali_klausits/manual.xlsx)
    
   - Komandu rindā iegūtie faili:
